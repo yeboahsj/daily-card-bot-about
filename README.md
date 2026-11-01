@@ -4,7 +4,7 @@ daily-card-bot is a small, private research project run by one person in Ontario
 
 ## What it reads
 
-- A site's `robots.txt`, before anything else on that site, once per run. It identifies itself as `daily-card-bot/1.0 (+https://github.com/yeboahsj/daily-card-bot-about)`. The one exception is the SEC, whose fair-access policy asks every request for a name and a contact email, so the SEC is asked under `daily-card-bot` and a contact address, as the bot's SEC filing reads already are.
+- A site's `robots.txt`, before it opens any page on that site for its AI to read, once per run. It identifies itself as `daily-card-bot/1.0 (+https://github.com/yeboahsj/daily-card-bot-about)`. The one exception is the SEC, whose fair-access policy asks every request for a name and a contact email, so the SEC is asked under `daily-card-bot` and a contact address, as the bot's SEC filing reads already are.
 - If your `robots.txt` turns away any of Anthropic's crawlers (ClaudeBot, Claude-SearchBot, Claude-User, anthropic-ai, Claude-Web), or points to a licence, the bot does not open your pages for its AI to read.
 - If the answer is unclear (a refusal, an error, a firewall page), the bot treats it as a no and sends nothing more.
 - It never pretends to be a browser or another company's crawler, and it does not retry after a refusal.
